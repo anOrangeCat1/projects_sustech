@@ -1,0 +1,116 @@
+Vending Machine Design Ideas
+
+Support coin insertion of 1 yuan and 5 yuan, totaling up (using a counter and adder).
+The maximum cumulative amount is 15 yuan.
+Can customers make single purchases or bulk purchases?
+Change is given and the product is dispensed after a single purchase.
+-------------------------------------------------------------------------------------------
+State machine (not sure if it can be implemented):
+
+1. Standby: Wait for confirmation and exit standby mode to enter State 2.
+2. Coin Insertion: After coin insertion, confirm and enter State 3.
+3. Product Selection: After selecting the desired product, confirm and enter State 4.
+4. Result Determination:
+	If there is enough money, dispense the product and give change.
+	If there is not enough money, refund the full amount.
+	After confirmation, return to State 1 (standby mode) to complete one work cycle.
+There are a total of 4 states, all of which require confirmation to enter the next state. You can use a state loop with a circular counter and an additional CLR interface to reset it after each cycle.
+-----------------------------------------------------------------------------------------------------
+Coin Insertion Module:
+
+1 Yuan Coin Insertion Module: Implemented using a 74LS161N adder.
+	Maximum cumulative amount: 15 yuan (4 digits).
+5 Yuan Coin Insertion Module: Implemented using a 74LS161N adder and a 74LS138D decoder.
+	Maximum cumulative amount: 15 yuan (4 digits).
+Accumulate 1 yuan and 5 yuan coins together, expanding the adder to 30 (5 digits).
+	Maximum amount: 30 yuan, meaning the maximum purchase amount for a drink is 30 yuan.
+--------------------------------------------------------------------------------------------------------------
+Product Selection Module:
+
+Product Selector: 4 types of products (e.g., 2 yuan for Nongfu Spring, 3 yuan for Cola, 4 yuan for Nongfu Orchard, 5 yuan for Xiaoming).
+Similar to the coin insertion module, it uses a 74LS161N adder and a 74LS138D decoder to select products.
+------------------------------------------------------------------------------------------------------------------
+Change Module:
+
+Design a full subtractor using 4008BD and 4070BD.
+Implementing 5-bit binary subtraction (4008BD can only implement 4-bit full subtraction).
+Logic:There are four possible scenarios for the first bit (most significant bit):
+	1. Coin Total: 0xxxx, Product Amount Total: 0xxxx
+	2. Coin Total: 0xxxx, Product Amount Total: 1xxxx (directly refund full amount)
+	3. Coin Total: 1xxxx, Product Amount Total: 0xxxx
+	4. Coin Total: 1xxxx, Product Amount Total: 1xxxx
+In the first case, simply subtract the last four bits. If there's a borrow, refund the full amount; otherwise, output the result.
+In the second case, directly refund the full amount.
+In the third case, subtract the last four bits first, then add binary 16. This involves using two's complement calculations.
+In the fourth case, subtract the last four bits. If there's a borrow, refund the full amount; otherwise, output the result.
+
+Use a decoder to distinguish the four cases based on the most significant bit.
+Note that the first and fourth cases are the same, and they can share the same connector.
+Alternatively, you can design a 5-bit or higher-bit full subtractor to simplify the process.
+
+(Note: This is a technical description of the design ideas for the vending machine.)
+
+
+
+
+
+
+自动售货机设计思路
+
+支持投币1元 5元 2种情况
+需要累加（计数器+加法器）
+上限累计为15元
+单次购买 / 能否批量购买？
+一次购买之后就找零+出货
+
+
+状态机（不知道能不能搞出来）
+1.待机 确认后解除待机 进入状态2
+2.投币 投币后确认 进入状态3 
+3.选货 选完要买的商品之后确认 进入状态4
+4.判断结果：钱足够 出货+找零 
+                    钱不够 退全款 
+                    确认后 进入状态1待机状态 完成一个工作循环
+
+一共4个状态 均需点击确认进入下一个状态
+可以使用状态循环 采用环形计数器
+多出一个CLR接口 用于每次循环后清零
+
+
+投币模块
+1元投币模块
+通过加法计数器74ls161N完成
+上限累计为15元（4位）
+
+5元投币模块
+通过加法计数器74ls161N 和 译码器74ls138D 完成
+上限累计为15元（4位）
+
+将1元投币和5元投币累加
+扩充加法计数器 15+15=30 （5位）
+上限为30元 即1次购买饮料金额上限为30元
+
+
+选货模块
+货品选择器
+4种商品 
+eg. 农夫山泉2元 可乐3元 农夫果园4元 小茗同学5元
+思路与投币模块相同 仍然利用加法计数器74ls161N 和 译码器74ls138D 完成
+
+找零模块
+设计全减器 通过4008BD和4070BD完成
+此处实现的是 5位二进制减法
+4008BD只能实现4位全减器
+
+思路: 首位(最高位)共有4中情况
+投币总数    选货金额总数
+0xxxx         0xxxx                   后四位相减  如果借位端为1 退全款 如果借位端为0 输出即可
+0xxxx         1xxxx                   直接退全款
+1xxxx         0xxxx                   后四位先相减  然后加二进制16 通过补码计算 有点复杂
+1xxxx         1xxxx                   后四位先相减  如果借位端为1 退全款 如果借位端为0 输出即可
+！！ 直接让最高位通过译码器 区分4种情况即可
+注意第1种和第4种情况相同 用同一个连接器即可
+
+tnnd真的恶心 不搞了
+
+或者设计出5位或者更高位的全减器 直接用就行
