@@ -14,3 +14,6 @@ After calibration, we can determine the relationship between the sensor's output
 ![image](https://github.com/anOrangeCat1/projects_sustech/assets/99580008/155dbee1-3c9e-4018-8d35-9488185f5e35)
 
 I tried both velocity control and position control loops, but due to accuracy issues, we ultimately used PD control in the position loop.
+
+![image](https://github.com/anOrangeCat1/projects_sustech/assets/99580008/90598a63-a220-4ba8-bf82-85281c23a164)
+
