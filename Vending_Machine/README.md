@@ -1,4 +1,4 @@
-# Stimulatin an Vending Machine Using FPGA
+# Implementing an Automatic Vending Machine Using Logic Circuits
 
 In this project, I was responsible for logic circuit design and simulating it in Multisim.
 
