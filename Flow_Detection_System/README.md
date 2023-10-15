@@ -1,4 +1,4 @@
-# Multi-Scenario Flow Intelligent Detection System Based on RPI and OpenCV
+# A Multi-Scene Flow Intelligence Detection System Based on Raspberry Pi
 
 With the advancement of artificial intelligence technology and deep learning object detection algorithms, in response to the demand for building smart cities today, 
 this project focused on multi-category traffic flow measurement. It improved the system architecture, reduced data processing load, and accelerated data computation and transmission.
