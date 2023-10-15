@@ -1,4 +1,4 @@
-# Age-Changing Camera
+# Age-Changing Camera Based on GANs
 
 This project is based on GANs(Generative Adversarial Networks). To make the task simple, I use **PaddleGAN** frame work. When you input a photo, this project will output a photo that looks both younger and older.
 
