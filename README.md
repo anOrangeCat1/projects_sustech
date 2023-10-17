@@ -34,15 +34,15 @@ _Team Project of 3 members_
 
 **_Individual contribution:_** I formed a path for the robotic arm by using the sorted pixel coordinates and became proficient in utilizing the ROS package provided by the robotic arm manufacturer for basic control. I applied the **PID control algorithm** to control the robotic arm for the purpose of creating artwork. 
 
-The final result is depicted in the following image：
+The final result is depicted in the following image:
 
 <div align=center>
-<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/0e1ae695-f4aa-4b16-98c6-d66303c3f6a0" />
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/0e1ae695-f4aa-4b16-98c6-d66303c3f6a0"  />
 </div>
 
-**_video link:_**
+**_video link_**
 
-_youtube:_
+_youtube:_ https://www.youtube.com/shorts/PwJzDzVUQ28
 
 _bilibili:_
 
@@ -55,16 +55,20 @@ _Team Project of 2 members_
 
 **_Individual contribution:_** Mastered the basic principles of DC motors and implemented position control using the **PD control algorithm**. It was approximated that the motor torque was linearly related to the current magnitude, and **calibration** allowed us to measure the weight of objects using this method.
 
-The final project looked like the following：
+The final project looked like the following image:
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/da7862ec-6811-43cc-aff6-6c664bafd607" width="20%" height="20%" />
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/6892484b-8b30-4f06-87dd-0d1114085b7b" width="36%" height="36%" />
+</div>
 
 
-**_video link:_**
+
+**_video link_**
 
 _youtube:_
 
 _bilibili:_
-
-
 
 
 ## A Hair Transplant Robot Based on Han’s Collaborative Robot
@@ -73,13 +77,64 @@ _bilibili:_
 _Team Project of 9 members_
 
 
+**_Discription of project:_** This is a project with a focus on business. The Grand Robotics Company wanted to explore the use of robotic arms in the beauty and hairdressing industry. They required a product proposal based on their current collaborative robotic arm technology. After investigating the market size and assessing user needs, we proposed a product concept for a hair transplant robot. We designed the configuration of the robotic arm, conducted a feasibility analysis, and obtained approval from the Grand Robotics Company.
+
+**_Individual contribution:_** Participated in market research, contributed to the design of the robotic arm configuration, prepared weekly reports and the final presentation, and collaborated with team members to advance the entire project.
+
+
+The final configuration of the hair transplant robot is shown in the following image:
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/3ba1483a-c0ef-470e-a5a0-75ee96d54e8e" width="50%" height="50%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/3fd0e27e-bbe6-40fe-8423-effb3e1b9192" width="32%" height="32%"/>
+</div>
+
+
+**_video link_**
+
+_youtube:_
+
+_bilibili:_
+
+
 
 ## A Smart Speaker Based on Raspberry Pi
 **_2022.10~2023.1_**
 
 _Team Project of 2 members_
 
+**_Discription of project:_** 
+This is a project for the Microcomputer Principles course. We used a Raspberry Pi as a development board and, based on it, connected various hardware components to develop a smart speaker. We incorporated the following features:
+- Implemented a **wake-up function** using the Wukong open-source project.
+- Integrated Baidu Intelligent Cloud API for voice recognition and synthesis, enabling **voice interactions**.
+- Utilized web scraping to fetch weather information for **voice weather reports**.
+- Integrated with the Turing Robot, enabling **basic conversations** (at that time, ChatGPT had not yet been released).
+- Connected various hardware components and established a communication network for **smart home control**, such as voice-controlled light switches and remote control of air conditioning and so on.
 
+
+**_Individual contribution:_** 
+Completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
+
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/45a4b741-42db-4953-b83c-d8d44e5561a9" width="25%" height="25%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c6c27131-5520-4af8-a51e-7ec29d0a8496" width="20%" height="20%"/>
+</div>
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/d28cf865-8e07-4ad6-82dd-a178dae5e6db" width="26%" height="26%" />
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/70992164-7c35-4ffb-a6ff-266bcd2ee28c" width="15%" height="15%"/>
+   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c463842a-6c0b-4b7f-81fd-25363f971efe" width="35%" height="35%"/>
+</div>
+
+
+
+
+**_video link_**
+
+_youtube:_
+
+_bilibili:_
 
 
 ## Artificial Intelligent and Machine Learning Projects
