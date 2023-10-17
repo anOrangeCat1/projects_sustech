@@ -30,12 +30,40 @@ Here are overviews of these projects, and if you want to know more details, you 
 
 _Team Project of 3 members_
 
+**_Discription of project:_** This is a project for a robot control course. It involves using a robotic arm to draw portrait sketches. The process begins with inputting a real portrait photograph. Image processing techniques are then applied to extract the outline of the portrait, which is transformed into a series of ordered coordinate points. These points serve as the path for the robotic arm to follow. Finally, the robotic arm is controlled to move along the generated path, ultimately completing the portrait drawing.
 
+**_Individual contribution:_** I formed a path for the robotic arm by using the sorted pixel coordinates and became proficient in utilizing the ROS package provided by the robotic arm manufacturer for basic control. I applied the **PID control algorithm** to control the robotic arm for the purpose of creating artwork. 
+
+The final result is depicted in the following image：
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/0e1ae695-f4aa-4b16-98c6-d66303c3f6a0" />
+</div>
+
+**_video link:_**
+
+_youtube:_
+
+_bilibili:_
 
 ## A Weight Measurement System Based on DC Motor
 **_2023.3~2023.6_**
 
 _Team Project of 2 members_
+
+**_Discription of project:_** This is a project for a sensor course. The requirement was to design an innovative weight sensor without using any strain gauges. It needed to measure random weights in the range of 0-1.5 kg with high accuracy and relatively fast response time. We adopted the principle of torque balance and used the PD control algorithm to control a DC motor to raise the object being weighed to its balanced position. By measuring the motor torque at equilibrium and conducting calibration, we completed the design of the Innovative sensor.
+
+**_Individual contribution:_** Mastered the basic principles of DC motors and implemented position control using the **PD control algorithm**. It was approximated that the motor torque was linearly related to the current magnitude, and **calibration** allowed us to measure the weight of objects using this method.
+
+The final project looked like the following：
+
+
+**_video link:_**
+
+_youtube:_
+
+_bilibili:_
+
 
 
 
