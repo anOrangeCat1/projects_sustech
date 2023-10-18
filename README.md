@@ -40,11 +40,11 @@ The final result is depicted in the following image:
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/0e1ae695-f4aa-4b16-98c6-d66303c3f6a0"  />
 </div>
 
-**_video link_**
+**_video link:_**
 
 _youtube:_ https://www.youtube.com/shorts/PwJzDzVUQ28
 
-_bilibili:_
+_bilibili:_ https://www.bilibili.com/video/BV1Uw411k7TE
 
 ## A Weight Measurement System Based on DC Motor
 **_2023.3~2023.6_**
@@ -64,11 +64,11 @@ The final project looked like the following image:
 
 
 
-**_video link_**
+**_video link:_**
 
 _youtube:_
 
-_bilibili:_
+_bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
 
 
 ## A Hair Transplant Robot Based on Han’s Collaborative Robot
@@ -89,11 +89,11 @@ The final configuration of the hair transplant robot is shown in the following i
 </div>
 
 
-**_video link_**
+**_video link:_**
 
 _youtube:_
 
-_bilibili:_
+_bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
 
 
 
@@ -133,11 +133,11 @@ The following images depict the physical components of the smart home section (l
 
 
 
-**_video link_**
+**_video link:_**
 
 _youtube:_
 
-_bilibili:_
+_bilibili:_ https://www.bilibili.com/video/BV1WC4y157by
 
 
 ## Artificial Intelligent and Machine Learning Projects
@@ -163,10 +163,36 @@ These are labs for mobile robots. Each lab involves using the **TurtleBot** to c
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/4d351bb7-8b8d-483a-a0a5-937997da1129" width="37%" height="37%"/>
 </div>
 
+
 ## Age-Changing Camera Based on GANs
 **_2022.9~2023.1_**
 
 _Team Project of 3 members_
+
+**_Discription of project:_** 
+This is a fun project. By learning the basics of **GANs (Generative Adversarial Networks)** and exploring existing software in the market that uses GANs for image style transformation, we developed an interesting application to change the age of portrait photos. Based on the open-source PaddleGAN framework and relevant APIs, we created an entertaining demo. Users can capture portrait photos using the keyboard and receive both a younger and an older version of the photo as output.
+
+**_Individual contribution:_**
+I collaborated with my teammates to learn the basics of GANs (Generative Adversarial Networks) and individually studied how to use PaddleGAN. We then developed a demo application.
+
+The final result is shown in the following image:
+
+**_Using a photo of Trump as a test:_**
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/1ace0389-f89a-437d-bbc3-3460fdb23fa7" width="60%" height="60%"/>
+</div>
+
+
+**_The effect of the demo:_**
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/2f8f2fa2-bafe-4211-9c74-0ac400cad0e6" width="40%" height="40%"/>
+</div>
+
+**_video link:_**
+
+_youtube:_ 
+
+_bilibili:_ https://www.bilibili.com/video/BV1GH4y1R7hG
 
 
 
@@ -175,6 +201,31 @@ _Team Project of 3 members_
 
 _Team Project of 3 members_
 
+**_Discription of project:_** 
+This project focuses on solving multi-class object detection challenges, improving system architecture, reducing data processing loads, and speeding up data computation and transmission. The intelligent detection system utilizes a **Raspberry Pi 4B** equipped with a camera, employs the **YOLOv5** framework for model training, and builds an **OpenCV**-based image **object detection** framework for various scenarios, including nucleic acid testing. The identified data is uploaded to a cloud server, further processed via a PC interface, and presented with visualization on a web page for real-time access by users.
+
+**_Individual contribution:_**
+I have completed the deployment of **YOLOv5** on a Raspberry Pi, using a simplified lightweight version, achieving approximately 4 frames per second (fps) and enabling real-time detection. It can detect various objects in multiple scenarios. Finally, the system provides a count of objects within the frame.
+
+The actual detection results are as shown in the following image:
+
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/88d1492d-b02c-4279-aa7a-d832a4dc2388" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/49d02003-5b2b-4b5e-b033-4c525e336980" width="40%" height="40%"/>
+</div>
+
+The final project looks as shown in the following image:
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/9e0a970d-5965-4909-8ed8-4957eac7f6c0" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/472ea16d-5e3b-4d1a-b92e-a9349f10acc9" width="43%" height="43%"/>
+</div>
+
+**_video link:_**
+
+_youtube:_
+
+_bilibili:_ https://www.bilibili.com/video/BV1qC4y157nN
+
 
 
 ## A Drawing Board Based on Hand Recognization Based by OpenCV
@@ -182,7 +233,23 @@ _Team Project of 3 members_
 
 _Team Project of 3 members_
 
+**_Discription of project:_** 
+This is the final project for the C/C++ Programming course. It involves using **OpenCV** and **Cascade Classifier** to implement **recognition of different gestures**. We created an entertaining demo that allows various functions to be performed with different gestures. For example, recording specific gesture movements to create a drawing board function, or recognizing the approximate shape of the gesture trajectory and so on.
 
+**_Individual contribution:_**
+I implemented gesture recognition and built the main framework for the demo.
+
+The final result is as follows：
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/e6183b25-743f-495e-8064-d721d3c5643b" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/fd82edcf-376d-4309-9867-44889b407b30" width="41%" height="41%"/>
+</div>
+
+**_video link:_**
+
+_youtube:_
+
+_bilibili:_ https://www.bilibili.com/video/BV1Ay4y1N7nA
 
 
 ## Implementing an Automatic Vending Machine Using Logic Circuits
@@ -190,11 +257,40 @@ _Team Project of 3 members_
 
 _Team Project of 5 members_
 
+**_Discription of project:_** 
+This is the final project for the Digital Circuit Experiment course. Using **logic circuits** and the most **basic combinational logic circuits**, such as full adders or encoders, we completed the basic functions of an automatic vending machine, including state transitions, coin counting, change calculation, etc. Finally, we conducted comprehensive simulation in Multisim. My teammate also implemented the basic functions of the vending machine on an FPGA based on this design, but those related files are not included here.
+
+**_Individual contribution:_**
+I personally completed the logic circuit design and construction of the vending machine, and successfully simulated it in Multisim.
+
+The final result is as follows:
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/d86069c4-649a-45a2-bda6-692679c17b72" width="70%" height="70%"/>
+</div>
+
 
 
 ## Bluetooth Glittering Speaker
 **_2021.10~2022.1_**
 
 _Team Project of 5 members_
+
+**_Discription of project:_** 
+This is the final project for the Analog Circuits Laboratory course. We designed an amplifier circuit to create a DIY speaker system. It features Bluetooth connectivity for playing music from a smartphone and uses Arduino to control LED strips that flash in rhythm with the music. Because this project was completed some time ago, only the relevant files for the amplifier circuit are included here.
+
+**_Individual contribution:_**
+I was responsible for building the amplifier circuit and simulating its feasibility in Multisim.
+
+
+The final project result is as shown in the figure:
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/7c2c2cbf-daa2-4bc5-8023-869eb25aeeea" width="42%" height="42%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/75bedfd1-2ce9-48dd-a0e9-4a27e0bf7599" width="43%" height="43%"/>
+</div>
+
+
+**_video link:_**
+
+_bilibili:_ https://b23.tv/3lXtUcn
 
 
