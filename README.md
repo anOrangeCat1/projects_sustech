@@ -15,7 +15,7 @@ If you are interested in these projects and find them helpful, feel free to down
 |_Age-Changing_Camera_|**Age-Changing Camera Based on GANs**|
 |_Bluetooth_Glittering_Speaker_|**Bluetooth Glittering Speaker**|
 |_DC_Motor_Weight_Measure_|**A Weight Measurement Device Based on a DC Motor**|
-|_Drawing_Board_|**Drawing Board Based on Hand Recognization Based by OpenCV**|
+|_Drawing_Board_|**Drawing Board Based on Hand Recognization Based on OpenCV**|
 |_Flow_Detection_System_|**A Multi-Scene Flow Intelligence Detection System Based on Raspberry Pi**|
 |_Hair_Transplnt_Robot_|**Hair Transport Robot**|
 |_Mobile_Robot_Labs_|**Mobile Robot Navigation and Control Labs**|
@@ -66,7 +66,7 @@ The final project looked like the following image:
 
 **_video link:_**
 
-_youtube:_
+_youtube:_ https://www.youtube.com/watch?v=4rZR-NxtF5Q
 
 _bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
 
@@ -91,7 +91,7 @@ The final configuration of the hair transplant robot is shown in the following i
 
 **_video link:_**
 
-_youtube:_
+_youtube:_ https://www.youtube.com/watch?v=X3IBC8lHwaI
 
 _bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
 
@@ -135,7 +135,7 @@ The following images depict the physical components of the smart home section (l
 
 **_video link:_**
 
-_youtube:_
+_youtube:_ https://www.youtube.com/watch?v=xWRJxR4BXoA
 
 _bilibili:_ https://www.bilibili.com/video/BV1WC4y157by
 
@@ -190,7 +190,7 @@ The final result is shown in the following image:
 
 **_video link:_**
 
-_youtube:_ 
+_youtube:_ https://www.youtube.com/watch?v=hzoAII0tOl0
 
 _bilibili:_ https://www.bilibili.com/video/BV1GH4y1R7hG
 
@@ -222,13 +222,13 @@ The final project looks as shown in the following image:
 
 **_video link:_**
 
-_youtube:_
+_youtube:_ https://www.youtube.com/watch?v=WhOx_mLZSFg
 
 _bilibili:_ https://www.bilibili.com/video/BV1qC4y157nN
 
 
 
-## A Drawing Board Based on Hand Recognization Based by OpenCV
+## A Drawing Board Based on Hand Recognization Based on OpenCV
 **_2022.4~2022.6_**
 
 _Team Project of 3 members_
@@ -247,7 +247,7 @@ The final result is as follows：
 
 **_video link:_**
 
-_youtube:_
+_youtube:_ https://www.youtube.com/watch?v=hBGSzM4NXlc
 
 _bilibili:_ https://www.bilibili.com/video/BV1Ay4y1N7nA
 
