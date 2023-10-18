@@ -3,9 +3,9 @@ This repository is to record my all undergraduate projects in sustech.
 
 You can click on specific folders to view detailed information about the projects. Some are code of prjects and some of them are code exercises during the learning process. 
 
-I have also uploaded some reports and PowerPoint presentations in PDF format. Some of them are in English, and others are in Chinese.
+I have also uploaded some reports and PowerPoint presentations. Some of them are in English, and others are in Chinese.
 
-If you are interested in these projects and find them helpful, please feel free to download and use them.
+If you are interested in these projects and find them helpful, feel free to download and use them.
 
 **_Below are the projects corresponding to the folders:_**
 
@@ -32,7 +32,7 @@ _Team Project of 3 members_
 
 **_Discription of project:_** This is a project for a robot control course. It involves using a robotic arm to draw portrait sketches. The process begins with inputting a real portrait photograph. Image processing techniques are then applied to extract the outline of the portrait, which is transformed into a series of ordered coordinate points. These points serve as the path for the robotic arm to follow. Finally, the robotic arm is controlled to move along the generated path, ultimately completing the portrait drawing.
 
-**_Individual contribution:_** I formed a path for the robotic arm by using the sorted pixel coordinates and became proficient in utilizing the ROS package provided by the robotic arm manufacturer for basic control. I applied the **PID control algorithm** to control the robotic arm for the purpose of creating artwork. 
+**_Individual contribution:_** I formed a path for the robotic arm by using the sorted pixel coordinates and became proficient in utilizing the **ROS** package provided by the robotic arm manufacturer for basic control. I applied the **PID control algorithm** to control the robotic arm for the purpose of creating artwork. 
 
 The final result is depicted in the following image:
 
@@ -76,7 +76,6 @@ _bilibili:_
 
 _Team Project of 9 members_
 
-
 **_Discription of project:_** This is a project with a focus on business. The Grand Robotics Company wanted to explore the use of robotic arms in the beauty and hairdressing industry. They required a product proposal based on their current collaborative robotic arm technology. After investigating the market size and assessing user needs, we proposed a product concept for a hair transplant robot. We designed the configuration of the robotic arm, conducted a feasibility analysis, and obtained approval from the Grand Robotics Company.
 
 **_Individual contribution:_** Participated in market research, contributed to the design of the robotic arm configuration, prepared weekly reports and the final presentation, and collaborated with team members to advance the entire project.
@@ -104,7 +103,7 @@ _bilibili:_
 _Team Project of 2 members_
 
 **_Discription of project:_** 
-This is a project for the Microcomputer Principles course. We used a Raspberry Pi as a development board and, based on it, connected various hardware components to develop a smart speaker. We incorporated the following features:
+This is a project for the Microcomputer Principles course. We used a Raspberry Pi as a development board and, based on it, connected various hardware components to develop a smart speaker. We mainly accomplished the following functions:
 - Implemented a **wake-up function** using the Wukong open-source project.
 - Integrated Baidu Intelligent Cloud API for voice recognition and synthesis, enabling **voice interactions**.
 - Utilized web scraping to fetch weather information for **voice weather reports**.
@@ -116,10 +115,14 @@ This is a project for the Microcomputer Principles course. We used a Raspberry P
 Completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
 
 
+The following image shows a physical representation of the voice interaction component (left) and the system diagram (right):
+
 <div align=center>
-<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/45a4b741-42db-4953-b83c-d8d44e5561a9" width="25%" height="25%"/>
-  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c6c27131-5520-4af8-a51e-7ec29d0a8496" width="20%" height="20%"/>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/45a4b741-42db-4953-b83c-d8d44e5561a9" width="31%" height="31%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c6c27131-5520-4af8-a51e-7ec29d0a8496" width="27%" height="27%"/>
 </div>
+
+The following images depict the physical components of the smart home section (left and center) and the system diagram (right):
 
 <div align=center>
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/d28cf865-8e07-4ad6-82dd-a178dae5e6db" width="26%" height="26%" />
@@ -138,9 +141,12 @@ _bilibili:_
 
 
 ## Artificial Intelligent and Machine Learning Projects
-**_2022 fall each project, 2 weeks for each project_**
+**_2022 fall   2 weeks for each project_**
 
 _Individual Project_
+
+**_Discription of project:_** 
+There are 2 projects for the Machine Learning and Artificial Intelligence course. The mid-term project focused on using **sklearn** to implement **linear regression** and the **K-Nearest Neighbors (KNN)** algorithm to solve a Kaggle problem, addressing the issue of imbalanced training samples. For the final project, **pytorch** was used to implement **Multi-Layer Perceptrons (MLP), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Attention** to solve another Kaggle problem.
 
 
 
@@ -149,7 +155,13 @@ _Individual Project_
 
 _Team Project of 2 members_
 
+**_Discription of labs:_** 
+These are labs for mobile robots. Each lab involves using the **TurtleBot** to complete specific tasks, including **line following by visual method, recognizing ArUco markers, mapping,navigation, SMACH and so on.** I became familiar with various tools and basic packages in ROS, and I wrote C++ and Python programs to accomplish specific tasks. Click to enter the folder to see more detailed information. Each lab is accompanied by code and usage instructions.
 
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/84be5c14-6811-431f-8cd1-d7a5c8c9eaf1" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/4d351bb7-8b8d-483a-a0a5-937997da1129" width="37%" height="37%"/>
+</div>
 
 ## Age-Changing Camera Based on GANs
 **_2022.9~2023.1_**
