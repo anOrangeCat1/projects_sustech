@@ -25,7 +25,8 @@ I was primarily responsible for **robotic arm control part**, ensuring that the 
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/3c7d9f0e-0fa6-42d3-af2c-7b6bc0e16ac8"  />
 </div>
 
-For control part, primarily, we use **PID control**. However, due to limitations in hardware precision, the joints of the robotic arm mainly employ **PD control**. Some of the parameters are shown in the figure below：
+For control part, primarily, we used **PID control**. However, due to limitations in hardware precision, the joints of the robotic arm mainly employed **PD control**. Some of the parameters are shown in the figure below：
+
 <div align=center>
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/9da2936b-0ed6-4b61-b709-8116c665cbd1"  />
 </div>
