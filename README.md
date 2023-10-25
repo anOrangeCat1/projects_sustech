@@ -53,6 +53,8 @@ _Team Project of 2 members_
 
 **_Discription of project:_** This is a project for a sensor course. The requirement was to design an innovative weight sensor without using any strain gauges. It needed to measure random weights in the range of 0-1.5 kg with high accuracy and relatively fast response time. We adopted the principle of torque balance and used the PD control algorithm to control a DC motor to raise the object being weighed to its balanced position. By measuring the motor torque at equilibrium and conducting calibration, we completed the design of the Innovative sensor.
 
+In the end, this new sensor exhibits excellent performance: measurement error within 2%, response time within 5s, and calibration data indicating a near-linear relationship between input and output.
+
 **_Individual contribution:_** Mastered the basic principles of DC motors and implemented position control using the **PD control algorithm**. It was approximated that the motor torque was linearly related to the current magnitude, and **calibration** allowed us to measure the weight of objects using this method.
 
 The final project looked like the following image:
