@@ -78,10 +78,14 @@ _bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
 
 _Team Project of 9 members_
 
-**_Discription of project:_** This is a project with a focus on business. The Grand Robotics Company wanted to explore the use of robotic arms in the beauty and hairdressing industry. They required a product proposal based on their current collaborative robotic arm technology. After investigating the market size and assessing user needs, we proposed a product concept for a hair transplant robot. We designed the configuration of the robotic arm, conducted a feasibility analysis, and obtained approval from the Grand Robotics Company.
+**_Discription of project:_** This is a project with a focus on business. The Han's Robotics Company wanted to explore the use of robotic arms in the beauty and hairdressing industry. They required a product proposal based on their current collaborative robotic arm technology. After investigating the market size and assessing user needs, we proposed a product concept for a hair transplant robot. We designed the configuration of the robotic arm, conducted a feasibility analysis, and obtained approval from the Han's Robotics Company.
 
 **_Individual contribution:_** Participated in market research, contributed to the design of the robotic arm configuration, prepared weekly reports and the final presentation, and collaborated with team members to advance the entire project.
 
+
+Currently, the prospects for using robotic arms in medical procedures are promising. For instance, in neurosurgery, robotic arms assist surgeons in delicate operations, increasing the success rate. In hair transplant surgeries, robotic arms can aid in tasks such as extracting hair follicles and implanting them. Among various medical scenarios, we have chosen to focus on the automation of robotic arms for hair transplant procedures.
+
+Hair transplant surgery presents several pain points, including its time-consuming nature and the repetitive actions of the surgeon, making it suitable for robotic arm implementation. Hair transplantation involves eight main steps: preoperative examination, shaving the head, anesthesia, hair follicle extraction, follicle selection and separation, storage, puncturing, and implanting hair follicles.
 
 The final configuration of the hair transplant robot is shown in the following image:
 
