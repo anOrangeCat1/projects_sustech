@@ -10,7 +10,23 @@ Each part circuit was named by its function, and whole logic circuit, which coul
 
 Also, the pre ppt and report were attached.
 
-Final logic circuit was like below:
+**_Below are the relevant files:_**
+|folder_name/file_name|content&function|
+|------|------|
+|_Circuit_network_testing.ms14_|**Circuit networks designed to avoid complex wiring issues.**|
+|_Cumulative_coin_insertion_total.ms14_|**Accumulated coin counting circuit implementation, which can calculate the total amount of coins inserted and display it.**|
+|_Design_Ideas_for_Vending_Machines.txt_|**Design ideas document.**|
+|_Inserting_1_yuan_coin.ms14_|**Circuit implementation for the 5 yuan coin insertion part.**|
+|_Inserting_5_yuan_coin.ms14_|**Circuit implementation for the 1 yuan coin insertion part.**|
+|_State_machine_prototype.ms14_|**Circuit implementation of the state machine section that can achieve state transitions for selecting items, technical operations, and coin insertion.**|
+|_Vending machine_4bit.ms14_|**The 4-bit version of the project integrates all functions.**|
+|_Vending_machine.ms14_|**The final version of the project integrates all functions.**|
+|_Vending_machine_system.docx_|**The project's final presentation slides.**|
+|_Vending_machine_system.pptx_|**The project's final report.**|
 
-![image](https://github.com/anOrangeCat1/projects_sustech/assets/99580008/8a5ef7bf-3041-471a-b78f-958ff6d2519f)
+Final logic circuit was like below:
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/8a5ef7bf-3041-471a-b78f-958ff6d2519f"  />
+</div>
+
 
