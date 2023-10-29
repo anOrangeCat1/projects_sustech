@@ -8,9 +8,34 @@ for real-time access by users.
 
 I was responsable for the part of intelligent detection using YOLOv5 and my teammates built remote control and TCP construction.
 
-The final results were attached as below:
+**Below are the relevant files:**
+|file_name|content&function|
+|------|------|
+|_Frame_IR.py_|**code for the hardware component**|
+|_Frame_final.py_|**The final project code, including both hardware and software components, can accomplish infrared remote control, target detection, and upload relevant data to the cloud.**|
+|_design_report.pdf_|**Final Project Design Report**|
+|_final_pre.pdf_|**Final Project PPT**|
 
-![test1](https://github.com/anOrangeCat1/projects_sustech/assets/99580008/a1fdee4f-d108-4c5b-9a0e-b5d759230a1e)
-![test3](https://github.com/anOrangeCat1/projects_sustech/assets/99580008/82e2e889-efb9-43dc-afb5-36bb37547b04)
-![test9](https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c44e9772-a360-4377-b259-c1f1a149c495)
+
+The results of objects detection using YOLOv5 were attached as below:
+
+<div align=center>
+   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/82e2e889-efb9-43dc-afb5-36bb37547b04" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/c44e9772-a360-4377-b259-c1f1a149c495" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/a1fdee4f-d108-4c5b-9a0e-b5d759230a1e" width="40%" height="40%"/>
+ 
+</div>
+
+The results of running on Raspberry Pi were shown as below:
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/0bad526d-241a-4430-be10-803ff6be4b96" width="40%" height="40%"/>
+  <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/fe42f669-d763-41de-957c-08a802649ff2" width="40%" height="40%"/>
+</div>
+
+**video link:**
+
+youtube: https://www.youtube.com/watch?v=WhOx_mLZSFg
+
+bilibili: https://www.bilibili.com/video/BV1qC4y157nN
+
 
