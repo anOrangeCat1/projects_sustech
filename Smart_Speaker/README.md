@@ -1,5 +1,23 @@
 # A Smart Speaker Based on Raspberry Pi
 
+In this project, I developed a Raspberry Pi-based microsystem inspired by smart voice assistants. I completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
+
+**_Below are the relevant files:_**
+|file_name|content&function|
+|------|-----|
+|_demo.py_|**Wake-up Function Code**|
+|_easy.py_|**Voice Interaction Function Code**|
+|_main.py_|**Complete Code**|
+|_project_pre.pdf_|**The final project presentation PPT**|
+|_system_frame.png_|**picture of system frame**|
+
+
+**_The entire project is as follows:_**
+<div align=center>
+<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/09866319-dd67-4345-868a-65e39d49b617"  /> 
+</div>
+
+
 **_Function List:_**
 - Wake-up and voice interaction
 - Voice-controlled light on/off
@@ -11,23 +29,11 @@
 - Mobile control of home devices
 
 
-**_Below are the relevant files:_**
-|file_name|content&function|
-|------|-----|
-|_demo.py_|**Wake-up Function Code**|
-|_easy.py_|**Voice Interaction Function Code**|
-|_main.py_|**Complete Code**|
-|_project_pre.pdf_|**The final project presentation PPT**|
-|_system_frame.png_|**picture of system frame**|
-
-**_The entire project is as follows:_**
-<div align=center>
-<img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/09866319-dd67-4345-868a-65e39d49b617"  /> 
-</div>
 
 
 
-In this project, I developed a Raspberry Pi-based microsystem inspired by smart voice assistants. I completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
+
+
 
 **_Throughout the entire project process, there are some points:_**
 
@@ -113,7 +119,11 @@ This approach highlights the architecture of edge-cloud computing, showcasing th
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/1740ab2f-bc60-49a1-be60-1c60104ec86d" width="45%" height="45%" />
 </div>
 
+**video link:**
 
+youtube: https://www.youtube.com/watch?v=xWRJxR4BXoA
+
+bilibili: https://www.bilibili.com/video/BV1WC4y157by
 
 
 
