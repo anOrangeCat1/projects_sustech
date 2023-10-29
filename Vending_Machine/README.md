@@ -29,4 +29,51 @@ Final logic circuit was like below:
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/8a5ef7bf-3041-471a-b78f-958ff6d2519f"  />
 </div>
 
+-----------------------------------------------------------------------------------------------------
+**The technical description of the design ideas for the vending machine, which was in _Design_Ideas_for_Vending_Machines.txt_** 
+1. Standby: Wait for confirmation and exit standby mode to enter State 2.
+2. Coin Insertion: After coin insertion, confirm and enter State 3.
+3. Product Selection: After selecting the desired product, confirm and enter State 4.
+4. Result Determination:
+	If there is enough money, dispense the product and give change.
+	If there is not enough money, refund the full amount.
+	After confirmation, return to State 1 (standby mode) to complete one work cycle.
+There are a total of 4 states, all of which require confirmation to enter the next state. You can use a state loop with a circular counter and an additional CLR interface to reset it after each cycle.
+
+**Coin Insertion Module:**
+
+1 Yuan Coin Insertion Module: Implemented using a 74LS161N adder.
+	Maximum cumulative amount: 15 yuan (4 digits).
+5 Yuan Coin Insertion Module: Implemented using a 74LS161N adder and a 74LS138D decoder.
+	Maximum cumulative amount: 15 yuan (4 digits).
+Accumulate 1 yuan and 5 yuan coins together, expanding the adder to 30 (5 digits).
+	Maximum amount: 30 yuan, meaning the maximum purchase amount for a drink is 30 yuan.
+ 
+
+**Product Selection Module:**
+
+Product Selector: 4 types of products (e.g., 2 yuan for Nongfu Spring, 3 yuan for Cola, 4 yuan for Nongfu Orchard, 5 yuan for Xiaoming).
+Similar to the coin insertion module, it uses a 74LS161N adder and a 74LS138D decoder to select products.
+
+
+**Change Module:**
+
+Design a full subtractor using 4008BD and 4070BD.
+Implementing 5-bit binary subtraction (4008BD can only implement 4-bit full subtraction).
+Logic:There are four possible scenarios for the first bit (most significant bit):
+
+1. Coin Total: 0xxxx, Product Amount Total: 0xxxx
+2. Coin Total: 0xxxx, Product Amount Total: 1xxxx (directly refund full amount)
+3. Coin Total: 1xxxx, Product Amount Total: 0xxxx
+4. Coin Total: 1xxxx, Product Amount Total: 1xxxx
+
+In the first case, simply subtract the last four bits. If there's a borrow, refund the full amount; otherwise, output the result.
+In the second case, directly refund the full amount.
+In the third case, subtract the last four bits first, then add binary 16. This involves using two's complement calculations.
+In the fourth case, subtract the last four bits. If there's a borrow, refund the full amount; otherwise, output the result.
+
+Use a decoder to distinguish the four cases based on the most significant bit.
+Note that the first and fourth cases are the same, and they can share the same connector.
+Alternatively, you can design a 5-bit or higher-bit full subtractor to simplify the process.
+
 
