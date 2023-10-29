@@ -50,5 +50,11 @@ The results are shown as following, which are fun:
 
 **They are both my friends.**
 
+**video link:**
+
+youtube: https://www.youtube.com/watch?v=hzoAII0tOl0
+
+bilibili: https://www.bilibili.com/video/BV1GH4y1R7hG
+
 
 
