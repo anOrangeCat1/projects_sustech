@@ -2,7 +2,7 @@
 
 **Below are the relevant files:**
 |folder_name/file_name|content&function|
-|------|-----|
+|------|------|
 |_MachineLearing_AndrewNg_|**lecture notes and tutorials of AndrewNg's online course about ML**|
 |_final_project_|**final peoject's code and report**|
 |_hand_ai_|**some codes from Mu Li's online course about AI to learn deep learning**|
