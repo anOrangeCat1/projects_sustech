@@ -23,7 +23,7 @@ When the torque is balanced, **$\tau$ = MgL**, where $\tau$ represents the motor
 |_calibration_data.xlsx_|**The calibration results of the sensors indicate that there is a roughly linear relationship between the motor torque and the mass of the object being measured.**|
 |_final_pre.pdf_|**The final project presentation PPT**|
 
-In this project, **the motor's encoder** was used, and a **PD control algorithm** was employed to control the motor to lift the object to the same position.
+In this project, **the motor's encoder** was used, and a **PID control algorithm** was employed to control the motor to lift the object to the same position.
 
 Due to the limitations of the motor's performance and its encoder precision, if the integral **(I)** term was added, the motor could not immediately reached the desired position, resulting in accumulated error, causing the motor to oscillate and preventing it from converging. So, in the end, instead of PID, a **PD** control algorithm was used.
 
