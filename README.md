@@ -30,6 +30,12 @@ Here are overviews of these projects, and if you want to know more details, you 
 
 _Team Project of 3 members_
 
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/shorts/PwJzDzVUQ28
+
+_bilibili:_ https://www.bilibili.com/video/BV1Uw411k7TE
+
 **_Discription of project:_** This is a project for a robot control course. It involves using a robotic arm to draw portrait sketches. The process begins with inputting a real portrait photograph. Image processing techniques are then applied to extract the outline of the portrait, which is transformed into a series of ordered coordinate points. These points serve as the path for the robotic arm to follow. Finally, the robotic arm is controlled to move along the generated path, ultimately completing the portrait drawing.
 
 **_Individual contribution:_** I formed a path for the robotic arm by using the sorted pixel coordinates and became proficient in utilizing the **ROS** package provided by the robotic arm manufacturer for basic control. I applied the **PID control algorithm** to control the robotic arm for the purpose of creating artwork. 
@@ -40,16 +46,18 @@ The final result is depicted in the following image:
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/0e1ae695-f4aa-4b16-98c6-d66303c3f6a0"  />
 </div>
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/shorts/PwJzDzVUQ28
-
-_bilibili:_ https://www.bilibili.com/video/BV1Uw411k7TE
 
 ## A Weight Measurement System Based on DC Motor
 **_2023.3~2023.6_**
 
 _Team Project of 2 members_
+
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=4rZR-NxtF5Q
+
+_bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
 
 **_Discription of project:_** This is a project for a sensor course. The requirement was to design an innovative weight sensor without using any strain gauges. It needed to measure random weights in the range of 0-1.5 kg with high accuracy and relatively fast response time. We adopted the principle of torque balance and used the PD control algorithm to control a DC motor to raise the object being weighed to its balanced position. By measuring the motor torque at equilibrium and conducting calibration, we completed the design of the Innovative sensor.
 
@@ -66,17 +74,19 @@ The final project looked like the following image:
 
 
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/watch?v=4rZR-NxtF5Q
-
-_bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
 
 
 ## A Hair Transplant Robot Based on Han’s Collaborative Robot
 **_2023.6~2023.7_**
 
 _Team Project of 9 members_
+
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=X3IBC8lHwaI
+
+_bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
 
 **_Discription of project:_** This is a project with a focus on business. The Han's Robotics Company wanted to explore the use of robotic arms in the beauty and hairdressing industry. They required a product proposal based on their current collaborative robotic arm technology. After investigating the market size and assessing user needs, we proposed a product concept for a hair transplant robot. We designed the configuration of the robotic arm, conducted a feasibility analysis, and obtained approval from the Han's Robotics Company.
 
@@ -90,11 +100,6 @@ The final configuration of the hair transplant robot is shown in the following i
 </div>
 
 
-**_video link:_**
-
-_youtube:_ https://www.youtube.com/watch?v=X3IBC8lHwaI
-
-_bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
 
 
 
@@ -102,6 +107,12 @@ _bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
 **_2022.10~2023.1_**
 
 _Team Project of 2 members_
+
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=xWRJxR4BXoA
+
+_bilibili:_ https://www.bilibili.com/video/BV1WC4y157by
 
 **_Discription of project:_** 
 This is a project for the Microcomputer Principles course. We used a Raspberry Pi as a development board and, based on it, connected various hardware components to develop a smart speaker. We mainly accomplished the following functions:
@@ -134,13 +145,6 @@ The following images depict the physical components of the smart home section (l
 
 
 
-**_video link:_**
-
-_youtube:_ https://www.youtube.com/watch?v=xWRJxR4BXoA
-
-_bilibili:_ https://www.bilibili.com/video/BV1WC4y157by
-
-
 ## Artificial Intelligent and Machine Learning Projects
 **_2022 fall   2 weeks for each project_**
 
@@ -170,6 +174,12 @@ These are labs for mobile robots. Each lab involves using the **TurtleBot** to c
 
 _Team Project of 3 members_
 
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=hzoAII0tOl0
+
+_bilibili:_ https://www.bilibili.com/video/BV1GH4y1R7hG
+
 **_Discription of project:_** 
 This is a fun project. By learning the basics of **GANs (Generative Adversarial Networks)** and exploring existing software in the market that uses GANs for image style transformation, we developed an interesting application to change the age of portrait photos. Based on the open-source PaddleGAN framework and relevant APIs, we created an entertaining demo. Users can capture portrait photos using the keyboard and receive both a younger and an older version of the photo as output.
 
@@ -189,11 +199,7 @@ The final result is shown in the following image:
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/2f8f2fa2-bafe-4211-9c74-0ac400cad0e6" width="40%" height="40%"/>
 </div>
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/watch?v=hzoAII0tOl0
-
-_bilibili:_ https://www.bilibili.com/video/BV1GH4y1R7hG
 
 
 
@@ -201,6 +207,12 @@ _bilibili:_ https://www.bilibili.com/video/BV1GH4y1R7hG
 **_2022.7~2022.8_**
 
 _Team Project of 3 members_
+
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=WhOx_mLZSFg
+
+_bilibili:_ https://www.bilibili.com/video/BV1qC4y157nN
 
 **_Discription of project:_** 
 This project focuses on solving multi-class object detection challenges, improving system architecture, reducing data processing loads, and speeding up data computation and transmission. The intelligent detection system utilizes a **Raspberry Pi 4B** equipped with a camera, employs the **YOLOv5** framework for model training, and builds an **OpenCV**-based image **object detection** framework for various scenarios, including nucleic acid testing. The identified data is uploaded to a cloud server, further processed via a PC interface, and presented with visualization on a web page for real-time access by users.
@@ -221,11 +233,7 @@ The final project looks as shown in the following image:
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/472ea16d-5e3b-4d1a-b92e-a9349f10acc9" width="43%" height="43%"/>
 </div>
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/watch?v=WhOx_mLZSFg
-
-_bilibili:_ https://www.bilibili.com/video/BV1qC4y157nN
 
 
 
@@ -233,6 +241,12 @@ _bilibili:_ https://www.bilibili.com/video/BV1qC4y157nN
 **_2022.4~2022.6_**
 
 _Team Project of 3 members_
+
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=hBGSzM4NXlc
+
+_bilibili:_ https://www.bilibili.com/video/BV1Ay4y1N7nA
 
 **_Discription of project:_** 
 This is the final project for the C/C++ Programming course. It involves using **OpenCV** and **Cascade Classifier** to implement **recognition of different gestures**. We created an entertaining demo that allows various functions to be performed with different gestures. For example, recording specific gesture movements to create a drawing board function, or recognizing the approximate shape of the gesture trajectory and so on.
@@ -246,11 +260,7 @@ The final result is as follows：
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/fd82edcf-376d-4309-9867-44889b407b30" width="41%" height="41%"/>
 </div>
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/watch?v=hBGSzM4NXlc
-
-_bilibili:_ https://www.bilibili.com/video/BV1Ay4y1N7nA
 
 
 ## Implementing an Automatic Vending Machine Using Logic Circuits
