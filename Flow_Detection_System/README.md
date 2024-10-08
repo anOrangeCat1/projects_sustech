@@ -1,10 +1,15 @@
 # A Multi-Scene Flow Intelligence Detection System Based on Raspberry Pi
 
+**video link:**
+
+youtube: https://www.youtube.com/watch?v=WhOx_mLZSFg
+
+bilibili: https://www.bilibili.com/video/BV1qC4y157nN
+
 With the advancement of artificial intelligence technology and deep learning object detection algorithms, in response to the demand for building smart cities today, 
 this project focused on multi-category traffic flow measurement. It improved the system architecture, reduced data processing load, and accelerated data computation and transmission.
 This intelligent detection system used a Raspberry Pi 4B with a camera, using the YOLOv5 framework, building an OpenCV image object detection architecture for various scenarios 
-such as nucleic acid testing, and uploaded relevant data to a cloud server. Further processing of recognition data is carried out on the PC, and the visualized results are displayed on a web page 
-for real-time access by users.
+such as nucleic acid testing, and uploaded relevant data to a cloud server. Further processing of recognition data is carried out on the PC, and the visualized results are displayed on a web page for real-time access by users.
 
 I was responsable for the part of intelligent detection using YOLOv5 and my teammates built remote control and TCP construction.
 
@@ -32,10 +37,6 @@ The results of running on Raspberry Pi were shown as below:
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/fe42f669-d763-41de-957c-08a802649ff2" width="40%" height="40%"/>
 </div>
 
-**video link:**
 
-youtube: https://www.youtube.com/watch?v=WhOx_mLZSFg
-
-bilibili: https://www.bilibili.com/video/BV1qC4y157nN
 
 
