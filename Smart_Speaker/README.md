@@ -2,6 +2,13 @@
 
 In this project, I developed a Raspberry Pi-based microsystem inspired by smart voice assistants. I completed the setup of the main program framework, implemented voice wake-up function, achieved voice interaction, enabled voice weather reporting, integrated with the Turing Robot and accomplished light control.
 
+**video link:**
+
+youtube: https://www.youtube.com/watch?v=xWRJxR4BXoA
+
+bilibili: https://www.bilibili.com/video/BV1WC4y157by
+
+
 **_Below are the relevant files:_**
 |file_name|content&function|
 |------|-----|
@@ -119,11 +126,6 @@ This approach highlights the architecture of edge-cloud computing, showcasing th
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/1740ab2f-bc60-49a1-be60-1c60104ec86d" width="45%" height="45%" />
 </div>
 
-**video link:**
-
-youtube: https://www.youtube.com/watch?v=xWRJxR4BXoA
-
-bilibili: https://www.bilibili.com/video/BV1WC4y157by
 
 
 
