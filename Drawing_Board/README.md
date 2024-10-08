@@ -2,6 +2,12 @@
 
 In this project, I was primarily responsible for building the overall framework and implementing gesture recognition.Because I have almost no knowledge of AI and computer vision, I just searched for relevant information and found some projects that I can use.
 
+**video link:**
+
+youtube: https://www.youtube.com/watch?v=hBGSzM4NXlc
+
+bilibili: https://www.bilibili.com/video/BV1Ay4y1N7nA
+
 When using specific hand gesture, the program would record the track of moving hand. After that, it could tell what the shape was.In the end, I designed the whole system just operated by hand recogniztion, which meant you can just change hand gesture to control it.
 
 **Below are the relevant files:**
@@ -33,8 +39,4 @@ The effect was like:
   <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/eb3a5576-5a0b-46bb-b0b7-a51330639eda"  />
 </div>
 
-**video link:**
 
-youtube: https://www.youtube.com/watch?v=hBGSzM4NXlc
-
-bilibili: https://www.bilibili.com/video/BV1Ay4y1N7nA
