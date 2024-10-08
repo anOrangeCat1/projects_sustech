@@ -2,6 +2,12 @@
 
 This project is based on GANs(Generative Adversarial Networks). To make the task simple, I use **PaddleGAN** frame work. When you input a photo, this project will output a photo that looks both younger and older.
 
+**video link:**
+
+youtube: https://www.youtube.com/watch?v=hzoAII0tOl0
+
+bilibili: https://www.bilibili.com/video/BV1GH4y1R7hG
+
 Though this project, I can learn some about GANs. The folder _GAN_try_ is try to realize a simple GAN. Two papers were read, which were _HyperStyle_StyleGAN_Inversion_with_HyperNetworks_for_Real_Image_Editing_ and
 _Age and Gender Classification using Convolutional Neural Networks_.
 
@@ -50,11 +56,7 @@ The results are shown as following, which are fun:
 
 **They are both my friends.**
 
-**video link:**
 
-youtube: https://www.youtube.com/watch?v=hzoAII0tOl0
-
-bilibili: https://www.bilibili.com/video/BV1GH4y1R7hG
 
 
 
