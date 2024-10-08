@@ -2,6 +2,12 @@
 
 This project primarily utilized Python programming. It also used the ROS package provided by the robotic arm manufacturer for basic control. 
 
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/shorts/PwJzDzVUQ28
+
+_bilibili:_ https://www.bilibili.com/video/BV1Uw411k7TE
+
 My two teammates were responsible for **image processing part**, which involved extracting the contours and points from the input portrait images, sorting and grouping the points to represent different brush strokes. 
 
 I was primarily responsible for **robotic arm control part**, ensuring that the robotic arm moved according to the sorted coordinate points to complete the artwork.
@@ -37,10 +43,6 @@ For control part, primarily, we used **PID control**. However, due to limitation
 </div>
 
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/shorts/PwJzDzVUQ28
-
-_bilibili:_ https://www.bilibili.com/video/BV1Uw411k7TE
 
 
