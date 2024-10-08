@@ -286,6 +286,10 @@ The final result is as follows:
 
 _Team Project of 5 members_
 
+**_video link:_**
+
+_bilibili:_ https://b23.tv/3lXtUcn
+
 **_Discription of project:_** 
 This is the final project for the Analog Circuits Laboratory course. We designed an amplifier circuit to create a DIY speaker system. It features Bluetooth connectivity for playing music from a smartphone and uses Arduino to control LED strips that flash in rhythm with the music. Because this project was completed some time ago, only the relevant files for the amplifier circuit are included here.
 
@@ -300,8 +304,6 @@ The final project result is as shown in the figure:
 </div>
 
 
-**_video link:_**
 
-_bilibili:_ https://b23.tv/3lXtUcn
 
 
