@@ -2,6 +2,12 @@
 
 This project was a weight measurement project with a range of 100g to 1.5kg, and the premise was not to use traditional weight sensors, such as strain gauges.
 
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=4rZR-NxtF5Q
+
+_bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
+
 Other students' approaches were often more conventional, mainly using **_spring method (mg=kx)_** or **_acceleration method (F=ma)_**. Since I hadn't previously worked with motor control, 
 I wanted to use a motor for weight measurement and utilized Arduino as controller, which was a very innovative approach that has never been attempted before.
 
@@ -40,9 +46,5 @@ The final project is shown as following:
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/90598a63-a220-4ba8-bf82-85281c23a164"  />
 </div>
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/watch?v=4rZR-NxtF5Q
-
-_bilibili:_ https://www.bilibili.com/video/BV1Gu4y1p77T
 
