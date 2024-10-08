@@ -7,6 +7,12 @@
 <img src="https://github.com/anOrangeCat1/projects_sustech/assets/99580008/e60cb8d3-88d7-4f2f-8e8e-0dcd5aa3b1c6" width="30%" height="30%"/>
 </div>
 
+**_video link:_**
+
+_youtube:_ https://www.youtube.com/watch?v=X3IBC8lHwaI
+
+_bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
+
 **_Below are the corresponding files:_**
 |file_name|content&function|
 |------|-----|
@@ -41,8 +47,4 @@ Furthermore, surgical operation planning in hair transplant procedures is anothe
 </div>
 
 
-**_video link:_**
 
-_youtube:_ https://www.youtube.com/watch?v=X3IBC8lHwaI
-
-_bilibili:_ https://www.bilibili.com/video/BV1Y8411k7Xy
